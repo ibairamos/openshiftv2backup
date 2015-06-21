@@ -36,7 +36,7 @@
                 <section class="author">
                     <img src="{{author.image}}" alt="Author" class="author-img" />
                     <h4>{{author.name}}</h4>
-                    <p>Autor</p>
+                    <p style="text-align:center;">Autor</p>
                 </section>
             {{/if}}
 
