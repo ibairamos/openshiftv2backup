@@ -8,7 +8,7 @@
 
             {{#if @blog.logo}}<a id="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
             <h1 class="blog-title">{{@blog.title}}</h1>
-            <h2 class="blog-description">{{@blog.description}}</h2>
+            <!--<h2 class="blog-description">{{@blog.description}}</h2>-->
         </div>
     </div>
 </header>
@@ -27,6 +27,7 @@
         <h1 class="post-title">{{{title}}}</h1>
 
         <section class="post-content">
+	<h4 class="offscreen">Contenido del post</h4>
             {{content}}
         </section>
 
