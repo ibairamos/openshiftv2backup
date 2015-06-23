@@ -798,6 +798,20 @@ table.plain {
 	color: black;
 }
 
+.estrenos > img{
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.estrenos > figcaption{
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	text-align: center;
+	background: lightgrey;	
+}
+
 /* ==========================================================================
    7. Pagination - Tools to let you flick between pages
    ========================================================================== */
