@@ -572,7 +572,7 @@ table.plain {
 .newsDate.inlineBox {
 	position: static;
 }
-.newsDate h4 {
+.newsDate h4, .newsDate span.datebox {
 	margin:0 auto;
 	font-size:1.4em;
 	line-height:1.2em;
