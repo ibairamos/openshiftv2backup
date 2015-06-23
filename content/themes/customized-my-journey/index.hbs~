@@ -33,12 +33,12 @@
 {{! The main content area on the homepage }}
 <main class="content" role="main">
 
-<nav class="navmenu">
+<!--<nav class="navmenu">
 	<ul>
 		<li><a href="http://localhost" style="text-decoration:none;color:black;">Home</a></li>
 		<li><a href="http://localhost/about" style="text-decoration:none;color:black;">Acerca de</a></li>
 	</ul>
-</nav>
+</nav>-->
 
     {{! Each post will be output using this markup }}
     {{#foreach posts}}
