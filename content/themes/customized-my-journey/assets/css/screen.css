@@ -382,7 +382,8 @@ table.plain {
     height: 40% !important;
     margin-bottom: 1rem;
     color: #fff;
-    background: #7FC4DA no-repeat center center;
+    /*background: #7FC4DA no-repeat center center;*/
+    background: black no-repeat center center;
     background-size: cover;
     border-bottom: 5px solid white;
     -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,.15);
