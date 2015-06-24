@@ -8,7 +8,6 @@
 
             {{#if @blog.logo}}<a id="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
             <h1 class="blog-title">{{@blog.title}}</h1>
-            <!--<h2 class="blog-description">{{@blog.description}}</h2>-->
         </div>
     </div>
 </header>
@@ -24,7 +23,7 @@
 
         <div class="post-newsDate"><span class="datebox"><time datetime="{{date format="YYYY-MM-DD"}}">{{date format='DD'}}</time></span><span><time datetime="{{date format="YYYY-MM-DD"}}">{{date format='MMM'}}</time></span><span><time datetime="{{date format="YYYY-MM-DD"}}">{{date format='YYYY'}}</time></span></div>
 
-        <h1 class="post-title">{{{title}}}</h1>
+        <h2 class="post-title">{{{title}}}</h2>
 
         <section class="post-content">
 	<h4 class="offscreen">Contenido del post</h4>
@@ -43,9 +42,6 @@
 
             <section class="share">
                 <h4>Share this post</h4>
-                <!--<a class="icon-twitter" href="http://twitter.com/share?text={{title}}&amp;url={{url absolute="true"}}"
-                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-                    <span class="hidden">Twitter</span>-->
 		<a class="icon-twitter" href="http://twitter.com/share?url={{url absolute="true"}}"
                     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                     <span class="hidden">Twitter</span>
@@ -60,13 +56,10 @@
                 </a>
             </section>
 <div></div>
-<!-- DISQUS INSERT -->
 <div id="disqus_thread"></div>
 <script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = 'dontcallmesnake';
-    
-    /* * * DON'T EDIT BELOW THIS LINE * * */
+
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
@@ -74,7 +67,6 @@
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-<!-- DISQUS INSERT End -->
 
         </footer>
 
